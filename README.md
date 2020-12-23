@@ -5,6 +5,8 @@
 [![DockerHub-pulls](https://img.shields.io/docker/pulls/monolithprojects/systemd-fedora31)](https://hub.docker.com/repository/docker/monolithprojects/systemd-fedora31)
 [![DockerHub](https://img.shields.io/docker/cloud/automated/monolithprojects/systemd-fedora31?maxAge=2592000)](https://hub.docker.com/repository/docker/monolithprojects/systemd-fedora31)
 
+:heavy_exclamation_mark: DEPRECATED :heavy_exclamation_mark:
+
 Docker image with fedora31 and enabled systemd. Image is updated with the latest software updates on the 1st day in the month. Image contains also `ansible` user (UID/GID 1000) with NOPASSWD:ALL sudo rights.  
 
 **Note:** This docker image is ment to be used for Molecule Ansible tests and development purpose. I do not recomend to use it in production.
